@@ -1,0 +1,66 @@
+.cloud {
+  background-color: rgba(236, 240, 243, 0.959);
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.title {
+  text-align: center;
+}
+
+.cloud h5 {
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+.cloud h6 {
+  padding-bottom: 20px;
+}
+
+.table-x {
+  border: 1px solid rgba(236, 240, 243, 0.959);
+  display: flex;
+  width: 70%;
+}
+
+.table-1 td,
+.table-2 td {
+  padding: 10px;
+  font-size: 13px;
+}
+
+.table-1,
+.table-2 {
+  flex: 1;
+}
+
+.table-1 .hr,
+.table-2 .hr {
+  border-bottom: 0.4px solid rgba(0, 0, 0, 0.918);
+}
+
+#center-data {
+  text-align: center;
+}
+
+.table-1 table,
+.table-2 table {
+  width: 95%;
+}
+
+#back {
+  display: flex;
+}
+
+#back-1 {
+  background-color: rgb(75, 168, 245);
+  color: white;
+  width: 32px;
+  display: flex;
+  justify-content: center;
+}
+
+#back-2 {
+  padding-right: 10px;
+}

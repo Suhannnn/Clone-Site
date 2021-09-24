@@ -1,0 +1,49 @@
+.analysis {
+  padding-top: 80px;
+  width: 70%;
+  margin-left: 16%;
+}
+
+.a-title h5 {
+  font-weight: bold;
+  padding-left: 10px;
+}
+
+.a-title {
+  display: flex;
+}
+
+.analysis hr {
+  height: 1px;
+  background-color: rgb(190, 189, 189);
+  border: none;
+}
+
+.a-flexbox {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+}
+
+.a-box {
+  display: flex;
+  flex: 1;
+}
+
+.a-box-1 {
+  display: flex;
+  flex: 0.3333;
+  align-items: center;
+}
+.a-box-2 {
+  padding-left: 15px;
+}
+
+.a-box-2 p {
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+.analysis-box {
+  padding-bottom: 80px;
+}

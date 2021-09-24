@@ -1,0 +1,43 @@
+.function {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 100px;
+  justify-content: center;
+}
+
+.function-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 70%;
+}
+
+.my-app,
+.support,
+.control,
+.finance,
+.oil {
+  border: 1px solid black;
+  width: 18%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 6px;
+  flex-wrap: wrap;
+  padding-right: 10px;
+}
+
+.my-app ul,
+.support ul {
+  padding-left: 10px;
+}
+
+.link-1 {
+  text-decoration: none;
+  color: black;
+}
+
+.icon-3 {
+  padding-bottom: 5px;
+}

@@ -1,0 +1,103 @@
+.banner {
+  width: 100%;
+}
+.banner-title {
+  display: flex;
+  flex-direction: column;
+  padding-top: 80px;
+  align-items: center;
+  color: white;
+}
+
+.banner-title p {
+  font-size: 1.3em;
+  font-weight: lighter;
+  padding-top: 10px;
+}
+.banner-box {
+  height: 200px;
+  border: 1px solid rgb(99, 99, 99, 0.2);
+  max-width: 70%;
+  margin-left: 16%;
+  margin-top: -70px;
+  background-color: white;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.bf-1,
+.bf-2 {
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  flex: 1;
+  align-items: center;
+}
+
+.bf-1 {
+  border-bottom: 1px solid rgb(218, 213, 213);
+}
+
+.banner-top-1 {
+  flex: 0.2;
+  align-items: center;
+  font-weight: 600;
+}
+.banner-top-2 {
+  flex: 0.26666;
+}
+.banner-top-3 {
+  flex: 0.26666;
+}
+.banner-top-4 {
+  flex: 0.26666;
+}
+
+.banner-top-1,
+.banner-top-2,
+.banner-top-3 {
+  margin: 10px;
+  border-right: 1px solid rgb(221, 221, 226);
+  display: flex;
+  flex-direction: column;
+}
+
+.banner-top-4 {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.banner-top-2 p,
+.banner-top-3 p,
+.banner-top-4 p {
+  display: flex;
+  font-weight: 600;
+  align-items: center;
+}
+
+.banner-top-2 small,
+.banner-top-3 small,
+.banner-top-4 small {
+  display: flex;
+  margin-top: -10px;
+}
+
+#pad {
+  padding-right: 5px;
+}
+
+#top {
+  color: rgb(209, 39, 39);
+  padding-right: 5px;
+}
+
+#hot {
+  background-color: rgb(209, 39, 39);
+  color: white;
+  font-weight: lighter;
+  font-size: 10px;
+  display: flex;
+  width: 30px;
+  justify-content: center;
+  border-radius: 3px;
+}

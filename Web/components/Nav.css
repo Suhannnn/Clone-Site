@@ -1,0 +1,40 @@
+.nav {
+  display: flex;
+  background-color: rgb(39, 35, 35);
+  color: white;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 10px;
+  padding-right: 20px;
+}
+
+.nav_1,
+.nav_2,
+.nav_3 {
+  display: flex;
+  align-items: baseline;
+}
+
+.icon {
+  margin-left: 10px;
+}
+.nav .logo {
+  width: 30px;
+  object-fit: contain;
+}
+
+.verticleLine {
+  height: 10px;
+  border-left: 1px solid rgb(134, 133, 133);
+  margin-left: 10px;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+  margin-left: 10px;
+}
+
+#nav-dropdown {
+  color: white;
+}

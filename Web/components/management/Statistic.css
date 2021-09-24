@@ -1,0 +1,14 @@
+.statistic {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 100px;
+  justify-content: center;
+}
+.statistic-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 70%;
+  border: 1px solid rgba(236, 240, 243, 0.959);
+  background-color: rgba(236, 240, 243, 0.959);
+}

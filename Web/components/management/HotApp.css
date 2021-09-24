@@ -1,0 +1,52 @@
+.hot-app-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.hot-app-flex h5,
+.hot-app-flex h6 {
+  padding-bottom: 10px;
+}
+
+.hot-app-box {
+  border: 1px solid black;
+  height: 120px;
+  width: 70%;
+  display: flex;
+  align-items: center;
+}
+
+.management {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.help {
+  border-right: 1px solid rgb(218, 213, 213);
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.para {
+  font-weight: 600;
+  font-size: 1.1em;
+}
+
+.management p,
+.help p {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.icon-1 {
+  padding-left: 5%;
+  padding-right: 10px;
+}
