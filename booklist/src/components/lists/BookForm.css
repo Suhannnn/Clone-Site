@@ -1,0 +1,21 @@
+.bookform {
+  width: 88.5%;
+  margin-left: 110px;
+  margin-top: 80px;
+  padding-bottom: 100px;
+}
+
+.line {
+  margin-bottom: 50px;
+  background-color: #c5c5c5;
+}
+
+.bookform h4 {
+  color: rgb(153, 153, 153);
+  font-weight: bold;
+}
+
+.box-button {
+  padding-right: 150px;
+  padding-left: 150px;
+}

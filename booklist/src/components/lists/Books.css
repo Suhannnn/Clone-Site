@@ -1,0 +1,33 @@
+.books {
+  display: flex;
+  align-items: center;
+}
+
+.percent {
+  padding-right: 100px;
+}
+
+.choose Button {
+  margin-top: 40px;
+}
+
+.choose {
+  font-weight: lighter;
+}
+
+.choose alert {
+  margin-top: 40px;
+}
+
+.ab {
+  display: flex;
+}
+
+.pad {
+  padding-right: 20px;
+}
+
+Button:hover {
+  transform: scale(1.1);
+  transition: all 0.2s;
+}

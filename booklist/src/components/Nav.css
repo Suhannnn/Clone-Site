@@ -1,0 +1,19 @@
+.nav {
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+  border-bottom: 1px solid #e8e8e8;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  background-color: white;
+}
+.nav h1 {
+  padding-left: 5%;
+  padding-right: 5%;
+  color: rgb(0, 132, 255);
+  font-weight: bold;
+}
+
+.nav p {
+  color: grey;
+}
